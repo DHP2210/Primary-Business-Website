@@ -1,0 +1,56 @@
+
+.recent-works {
+  padding: 6rem 10rem 5.6rem 12rem;
+  background-color: #f7f7f7;
+}
+
+.recentworks-text {
+  text-align: center;
+  font-size: 31px;
+  font-family: 'Roboto Slab', sans-serif ;
+}
+
+.recentworks-text::after {
+  content: "";
+  width: 50px;
+  position: relative;
+  border-bottom: 2px solid red;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+ }
+
+ .recentbest-text {
+   text-align: center;
+   font-size: 14px;
+   margin-top: 15px;
+   font-family: 'Roboto Slab', sans-serif ;
+ }
+
+ .paintdrips-text {
+    font-family: 'Roboto Slab', sans-serif ;
+    padding: 5px 95px 13px 96px;
+    position: absolute;
+    background: #fff;
+    top: 1466px;   
+ }
+
+ .workers-names {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 5px;  
+ }
+
+ .recentworks-images {
+   margin-top: 40px;
+ }
+
+ .paintdrips-img {
+  height: 237px;
+  position: relative;
+ }
+
+ .recentworks-images {
+   background-size: cover;
+ } 

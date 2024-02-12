@@ -1,0 +1,558 @@
+/* navbar */
+
+@media (max-width:991px) {
+    .nav {
+        padding: 0px 91px 0px 63px;
+      }
+    
+      .nav>.nav-btn {
+        
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+    
+      .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px 81px 0px 0px;
+      }
+    
+      .nav>.nav-btn>label:hover,
+      .nav #nav-check:checked~.nav-btn>label {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+    
+      .nav>.nav-btn>label>.ham {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+      }
+    
+      .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+    
+      .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+        color: #eee;
+      }
+    
+      .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+      }
+    
+      .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+      }
+} 
+
+@media (max-width: 768px) {
+    .nav {
+      padding: 0px 0px 0px 0px;
+    }
+  
+    .nav>.nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  
+    .nav>.nav-btn>label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+  
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  
+    .nav>.nav-btn>label>.ham {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+  
+    .nav>.nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+  
+    .nav>.nav-links>a {
+      display: block;
+      width: 100%;
+      color: #eee;
+    }
+  
+    .nav>#nav-check:not(:checked)~.nav-links {
+      height: 0px;
+    }
+  
+    .nav>#nav-check:checked~.nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+
+
+/* Banner section  */ 
+
+.hero-banner {
+  padding: 8rem 0 7.6rem 0;
+  margin-top: 57px;
+}
+
+.banner-heading {
+  font-size: 38px;
+  margin: -20px 0px 27px 0px;
+}
+
+.banner-subheading {
+  font-size: 20px;
+  margin: 0;
+  padding: 25px 0px 0px 19px;
+}
+
+.purchase-btn {
+  font-size: 14px;
+  margin-top: 53px;
+}
+
+ /* About us section */
+
+ @media (max-width: 768px) {
+  .about-us {
+    padding: 6rem 2rem 5.6rem 2rem; 
+  }
+
+  .about-us .main {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex: 1 0 50%;
+    padding-left: 0; 
+    padding-right: 0; 
+    text-align: center; 
+    margin-bottom: 2rem; 
+  }
+
+  .ionicon {
+    padding-left: 1px;
+  }
+
+  .subpara-text {
+    font-size: 12px;
+  }
+}
+
+
+ /* Recent Work Section */
+
+ .container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  /* margin-left: -28px; */
+  grid-gap: 30px;
+}
+
+.cards {
+   width: 350px;
+}
+
+/* Achievement Section */ 
+
+.achievement-works {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
+  font-size: 18px; 
+}
+
+.item {
+  text-align: center;
+  margin: 0px 25px 91px 25px;
+  flex: 1 1 40%; 
+ }
+
+ /* Our Services Section */ 
+
+ .service-qualities {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: -158px;
+ }
+
+ .highqualitycode-subtext {
+    font-size: 15px;
+ }
+
+
+ /* Testimonials Section */
+
+ .about-Costumers {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 50px;
+}
+
+  .costumers {
+  background: #fff;
+  padding: 30px;
+  margin-left: -175px;
+  margin-right: -143px;
+  }
+
+  .customer-affiliation {
+    margin: 9px 0px -19px;
+    margin-left: 102px;
+    font-size: 14px;
+  }
+
+  #apple{
+      margin-left: 106px;
+  }
+
+  #yahoo{
+    margin-left: 106px;
+  }
+
+  #twitter{
+    margin-left: 106px;
+  }
+
+
+
+  /* From Blog section */
+
+  .blogcontainer{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    margin: 70px auto;
+    max-width: 1200px; 
+  }
+
+  .blogcards-image {
+    width: 736px;
+    margin-left: -178px;
+}
+
+.blogcards-content,
+  .blogcards-title {
+    margin-left: -143px;
+    margin-bottom: -9px;
+  }
+  
+  .blogcards-image img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+    /* footer section */
+ 
+
+    .footer-section2 {
+      padding: 5% 10px;
+      width: 100%;
+      gap: 5%;
+    }
+  
+    .section-primary {
+      width: 21%;
+      margin-bottom: 20px;
+    }
+    .primary-logo2 {
+      height: 40px;
+  }
+    hr {
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+  
+    .footer-row {
+      padding: 0px 20px;
+    }
+    .socialmedia-icons {
+      width: 100%;
+    }
+    .social-icons {
+      width: 100%;
+    }
+    .icons-div {
+      width: 16%;
+  }
+  i.social-icon {
+    padding: 1px 35px 3px 35px;
+}
+
+}
+
+
+@media (max-width:431px) {
+
+  /* banner section  */
+
+  .primary-logo2 {
+    height: 37px;
+}
+  .hero-banner {
+    padding: 1rem 0 3.6rem 0;
+}
+
+.banner-heading {
+    font-size: 24px;
+    margin-top: 47px;
+}
+
+.banner-subheading {
+    font-size: 13px;
+    padding: 0px 0px 44px 30px;
+}
+
+.purchase-btn {
+    margin-top: 7px;
+    font-size: 6px;
+    line-height: 9px;
+}
+
+/* About us section */
+
+
+  .about-us {
+    padding-top: 4rem;
+  }
+   
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ionicon {
+    color: #F44336;
+    padding-left: 78px;
+    margin-bottom: 15px;
+    font-size: 38px;
+    margin-left: -64px;
+   }
+
+ .column {
+   padding-top: 21px;
+ }
+
+ .para-text {
+   padding-right: 1px;
+ }
+  
+ .subpara-text{
+  font-size: 12px;
+ } 
+
+
+
+  /* Recent Works Section  */
+
+  .recent-works {
+    padding: 6rem 0rem 5.6rem 0rem;
+  }
+
+  .container {
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     margin-left: 2px;
+  }
+
+  .cards {
+    width: 400px;
+  }
+
+  /* Achievement Section */ 
+
+
+  .achievement {
+    padding: 2rem 1rem; 
+    background-color: #F44336;
+    color: aliceblue;
+    background: url(https://wallpaper-house.com/data/out/12/wallpaper2you_542544.jpg);
+  }
+  
+  .achievement-works {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 18px; 
+  }
+  
+  .item {
+    text-align: center;
+    margin: 40px;
+    flex: 1 1 40%; 
+    }
+  
+  .numbers {
+    margin-top: 10px;
+    font-size: 46px; 
+  }
+  
+  .achievement-texts {
+    margin-top: 5px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 15px; 
+  }
+  
+  .row-imgs {
+    font-size: 30px; 
+  }
+  
+  /* Our Services Section */ 
+
+    .our-services {
+      padding: 4.5rem 2rem 5.6rem 2rem; 
+    }
+  
+    .service-qualities {
+      grid-template-columns: repeat(1, 1fr); 
+      grid-gap: 60px; 
+      padding-left: 0; 
+      margin-left: 0; 
+    }
+  
+    .service-logos {
+      margin-left: -55px; 
+    }
+   
+    .highqualitycode{
+        margin-left: 40px;
+    }
+
+    /* Testimonials Section */
+
+    .testimonials {
+      padding: 6rem 6rem 5.6rem 6rem;
+    }
+
+    .about-Costumers {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 50px;
+    }
+
+    .costumer-img {
+      margin-left: -7px;
+    }
+
+    .costumers {
+    background: #fff;
+    padding: 30px;
+    margin-left: -78px;
+    margin-right: -85px;
+    }
+  
+    .costumer-description {
+      font-size: 16px; 
+    }
+
+
+
+    .customer-affiliation {
+      margin: -19px 0px -19px 185px;
+      font-size: 14px;
+    }
+  
+    #apple{
+        margin-left: 237px;
+    }
+  
+    #yahoo{
+      margin-left: 213px;
+    }
+  
+    #twitter{
+      margin-left: 210px;
+    }
+
+
+    /* From Blog section */
+
+    .from-blog {
+      padding:4.5rem 5rem 0.6rem 7rem;
+    }
+
+    .blogcontainer{
+      margin: 50px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 32px;
+      margin: 70px auto;
+      max-width: 1200px; 
+    }
+
+    .awesomeimg {
+      width: 400px; 
+      height: 250px; 
+    }
+
+    .blogcards-image {
+      width: 403px;
+      margin-left: -96px;
+  }
+
+  .blogcards-content,
+  .blogcards-title {
+    margin-left: -96px;
+  }
+
+  
+
+   /* footer section */ 
+
+   .section-primary {
+    width: 100%;
+   }
+
+   i.social-icon {
+    padding: 8px 10px 0px 16px;
+    font-size: 34px;
+}
+   .footer-links {
+    display: none;
+   }
+
+   .footer-row {
+    justify-content: center;
+   }
+
+}
